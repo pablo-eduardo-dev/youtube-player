@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>YouTube Player</title>
+</head>
+
+<body>
+    <p style="position: absolute; bottom: 10px; right: 10px;">Other detail: you can download the videos clicking on videos with the right button and > save video as. Give me credits pleas</p>
+    <div class="video-container">
+        <div class="video-wrapper">
+            <div class="detail">
+                <h1>Detail: all this edits is mine</h1>
+                <video src="./files/memekjk.mp4" autoplay muted loop width="100"></video>
+            </div>
+            <video class="video"></video>
+            <div class="controls">
+                <div class="seek-bar">
+                    <input type="range" min="0" max="0" step="1" id="seekbar">
+                </div>
+                <div class="bottom-controls">
+                    <div class="button-controls">
+                        <div class="playPause">
+                            <i class="fa-solid fa-play"></i>
+                            <i class="fa-solid fa-pause"></i>
+                        </div>
+                        <i class="fa-solid fa-forward">
+                            <div class="preview">
+                                <div class="preview-wrapper">
+                                    <div class="imageVideo-preview">
+
+                                    </div>
+                                    <div class="details">
+                                        <p class="playing"><b>Next: </b></p>
+                                        <p class="title-preview">
+                                            title
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </i>
+                    </div>
+                    <div class="vol-control">
+                        <i class="fa-solid fa-volume-high">
+                            <input type="range" min="0" max="100" step="1" value="100" name="" id="vol-bar">
+                        </i>
+                    </div>
+                    <div class="time">
+                        <p class="duration">00:00</p>
+                        <span>/</span>
+                        <p class="total-duration">00:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fix">
+            <h2 class="title">Title</h2>
+            <div class="perfil-area">
+                <div class="perfil-icon">
+
+                </div>
+                <div class="text">
+                    <h4>Pablo Eduardo</h4>
+                    <p>1 mi inscritos kkk</p>
+                </div>
+                <button class="inscrever">Inscrever-se</button>
+            </div>
+
+        </div>
+        <div class="inscrito-area">
+            <div class="box">
+                <strong>Cancelar inscrição?</strong>
+                <div class="buttons">
+                    <button class="yesButton">Cancelar</button>
+                    <button class="noButton">Não</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
