@@ -80,9 +80,6 @@
 
 This project is maked with JavaScrip Modules
 
-<br>
-
-You can to access the project's site [HERE]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
